@@ -1,0 +1,30 @@
+# requirements.txt
+
+# For Augmentation
+pandas==1.3.3
+nlpaug==1.1.3
+torch==1.10.0
+
+# For Extension (HTML, CSS, JS)
+
+# For Scrapper
+scrapy==2.5.1
+
+# For Training
+# a. For Multinomial Bernoulli
+scikit-learn==0.24.2
+
+# b. For Roberta model
+transformers==4.13.0
+
+# c. For Bert model
+transformers==4.13.0
+numpy==1.21.2
+
+# d. For Random forest model
+scikit-learn==0.24.2
+pandas==1.3.3
+numpy==1.21.2
+
+# For Flask (Backend)
+Flask==2.1.2

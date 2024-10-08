@@ -1,0 +1,118 @@
+body {
+    height: 300px;
+    width: 300px;
+    background-image: url("images2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-clip: content-box;
+    margin: 0px;
+    padding: 10px;
+}
+.input-box{
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 4px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    :focus{
+        color: #212529;
+        background-color: #fff;
+        border-color: #86b7fe;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+    }
+}
+
+h2 {
+	/* margin: 1em 0 0.5em 0; */
+    margin-top: 20px;
+	color: #ffffff;
+	font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;  
+	font-size: 25px;
+    text-align: center;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px rgb(225, 199, 199), 0 3px #777;
+}
+
+#input {
+    font-size: 12px;
+    margin-top: 10px;
+}
+  
+.output-text{
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+	font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    text-align: center;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px grey, 0 3px #777;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#owl {
+    height: 35px;
+    width: 32px;
+    margin: 10px;
+}
+ 
+label {
+    color: #ffffff; 
+}
+.lst_container{
+    overflow: auto;
+    height: 160px;
+    width: 300px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#purchaseDate {
+    margin-left: 12px;
+}
+
+.display_lst{
+    color: #ffffff; 
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 15px;
+    width: 60%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.lst_container::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    margin-top: 30px;
+}

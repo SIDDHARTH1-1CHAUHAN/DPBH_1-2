@@ -1,0 +1,41 @@
+{
+  "name": "Pattern Owl",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "host_premissions": "http://127.0.0.1:5000/*",
+  "action": {
+    "default_popup": "dpbh.html",
+    "default_icon": "owl.png"
+  },
+  "background": {
+    "service_worker": "eventPage.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["owl.png"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "notifications",
+    "contextMenus",
+    "notifications",
+        "storage",
+        "alarms",
+        "nativeMessaging",
+    "https://*"
+  ]
+}
